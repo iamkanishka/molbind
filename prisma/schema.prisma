@@ -27,3 +27,24 @@ model User {
   @@map("users")
 }
 
+model MoleculeOptimization {
+  id                  String   @id @default(uuid())
+  algorithm           String
+  numMolecules        Int
+  propertyName        String
+  minimize            Boolean  @default(false)
+  minSimilarity       Float
+  particles           Int
+  iterations          Int
+  smi                 String
+  generatedMolecules  Json     @default("{}")
+  userId              String
+  user                User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  @@map("molecule_optimizations")
+  @@index([userId]) // This creates the index on user_id like in Ecto
+}
+
