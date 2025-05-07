@@ -13,3 +13,17 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+
+model User {
+  id                     String                  @id @default(uuid())
+  address                String                  @unique
+  lastLoginAt            DateTime?
+  createdAt              DateTime                @default(now())
+  updatedAt              DateTime                @updatedAt
+
+  moleculeOptimizations  MoleculeOptimization[]  // One-to-many relation
+
+  @@map("users")
+}
+
