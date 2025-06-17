@@ -1,268 +1,554 @@
 {
-  ".": {
+  "apps/molbind-e2e": {
     "root": [
-      "project.json",
+      "apps/molbind-e2e/project.json",
       "nx/core/project-json"
-    ],
-    "name": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "includedScripts": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "package.json",
-      "nx/core/package-json"
-    ],
-    "tags.npm:private": [
-      "package.json",
-      "nx/core/package-json"
     ],
     "metadata.targetGroups": [
-      "package.json",
-      "nx/core/package-json"
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
     ],
-    "metadata.js": [
-      "package.json",
-      "nx/core/package-json"
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
     ],
-    "metadata.js.packageName": [
-      "package.json",
-      "nx/core/package-json"
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
     ],
-    "metadata.js.isInPackageManagerWorkspaces": [
-      "package.json",
-      "nx/core/package-json"
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
     ],
     "targets": [
-      "package.json",
-      "nx/core/package-json"
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.dependsOn": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.cache": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.inputs": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.outputs": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.executor": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.env": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.command": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/molbind-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.lint": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/molbind-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/molbind-e2e/project.json",
+      "nx/core/project-json"
     ],
     "$schema": [
-      "project.json",
+      "apps/molbind-e2e/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "prefix": [
-      "project.json",
+      "apps/molbind-e2e/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "project.json",
+      "apps/molbind-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/molbind-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/molbind-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.molbind": [
+      "apps/molbind-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/molbind": {
+    "root": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/molbind/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.executor": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.outputs": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.defaultConfiguration": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.outputPath": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.index": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.browser": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.polyfills": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.tsConfig": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.inlineStyleLanguage": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.assets": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.styles": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
-    "targets.build.options.scripts": [
-      "project.json",
+    "targets.build.options.server": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.ssr": [
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputMode": [
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.production": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.production.budgets": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.production.outputHashing": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.optimization": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.extractLicenses": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.build.configurations.development.sourceMap": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve": [
-      "project.json",
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.executor": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.defaultConfiguration": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "targets.serve.options.proxyConfig": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.production.buildTarget": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve.configurations.development.buildTarget": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.extract-i18n": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.extract-i18n.executor": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.extract-i18n.options": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.extract-i18n.options.buildTarget": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.lint": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.lint.executor": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options": [
-      "project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options.lintFilePatterns": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.test": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.test.executor": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.test.outputs": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.test.options": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.test.options.jestConfig": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static": [
-      "project.json",
+      "apps/molbind/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static.executor": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static.options": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static.options.buildTarget": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static.options.port": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static.options.staticFilePath": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
     ],
     "targets.serve-static.options.spa": [
-      "project.json",
+      "apps/molbind/project.json",
       "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
     ],
     "targets.build.cache": [
       "nx.json",
@@ -277,18 +563,6 @@
       "nx/target-defaults"
     ],
     "targets.build.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.cache": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.lint.parallelism": [
       "nx.json",
       "nx/target-defaults"
     ],
