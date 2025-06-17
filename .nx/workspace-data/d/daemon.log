@@ -1,0 +1,59 @@
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.383Z - Started listening on: \\.\pipe\nx\C:\Users\KANISH~1\AppData\Local\Temp\244c11135377de593f0c\d.sock
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.387Z - [WATCHER]: Subscribed to changes within: c:\Kanishka's Workspace\Angular\Real-world Application\molbind (native)
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.390Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.392Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.442Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.442Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.443Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.445Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.970Z - Time taken for 'Load Nx Plugin: c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\nx\src\plugins\package-json' 518.7761ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:02.974Z - Time taken for 'Load Nx Plugin: c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 522.1864ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.002Z - Time taken for 'loadDefaultNxPlugins' 551.424ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.136Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 688.3307ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.266Z - Time taken for 'Load Nx Plugin: @nx/cypress/plugin' 819.5325999999999ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.281Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.281Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.281Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.291Z - Time taken for 'loadSpecifiedNxPlugins' 834.3314999999999ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.294Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.295Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.295Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.298Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.299Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.299Z - Handled GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.303Z - [REQUEST]: Responding to the client. handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.304Z - Done responding to the client handleHashMultiGlob
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:03.304Z - Handled HASH_GLOB. Handling time: 1. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:04.756Z - Time taken for 'build-project-configs' 1449.9162999999999ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.118Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph.
+     - eslint.config.mjs: Error: Cannot find module '@eslint-community/regexpp'
+  Require stack:
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@typescript-eslint\eslint-plugin\dist\rules\prefer-includes.js
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@typescript-eslint\eslint-plugin\dist\rules\index.js
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@typescript-eslint\eslint-plugin\dist\raw-plugin.js
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@typescript-eslint\eslint-plugin\dist\index.js
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\typescript-eslint\dist\index.js
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@nx\eslint-plugin\src\flat-configs\typescript.js
+  - c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@nx\eslint-plugin\src\index.js
+      at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+      at Function._load (node:internal/modules/cjs/loader:1055:27)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+      at Module.require (node:internal/modules/cjs/loader:1311:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (c:\Kanishka's Workspace\Angular\Real-world Application\molbind\node_modules\@typescript-eslint\eslint-plugin\dist\rules\prefer-includes.js:36:19)
+      at Module._compile (node:internal/modules/cjs/loader:1554:14)
+      at Object..js (node:internal/modules/cjs/loader:1706:10)
+      at Module.load (node:internal/modules/cjs/loader:1289:32)
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.123Z - Time taken for 'total execution time for createProjectGraph()' 358.54309999999987ms
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.124Z - Done responding to the client null
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.124Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2673. Response time: 6.
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.131Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.132Z - Done responding to the client handleContextFileData
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.132Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:05.132Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:38.916Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:38.926Z - [WATCHER]: Stopping the watcher for c:\Kanishka's Workspace\Angular\Real-world Application\molbind (sources)
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:38.927Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:38.928Z - [WATCHER]: Stopping the watcher for c:\Kanishka's Workspace\Angular\Real-world Application\molbind (outputs)
+[NX v20.8.1 Daemon Server] - 2025-06-17T06:03:38.929Z - Server stopped because: "NX_VERSION_CHANGED"
