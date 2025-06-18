@@ -1,15 +1,20 @@
 import { Module, DynamicModule, Provider } from '@nestjs/common';
 import { JwtModule } from '@nestjs/jwt';
-import { EthAuthGuard } from '../guards/eth-guard.guard';
-import { AuthModuleOptions, AuthModuleAsyncOptions } from '../interfaces/auth-options.interface';
-import { AuthService } from '../services/auth.service';
-import { MemoryNonceService, NonceService } from '../services/nonce.service';
-import { SignatureService } from '../services/signature.service';
-import { EthStrategy } from '../strategy/eth.strategy';
- 
+
+import { EthAuthGuard } from './guards/eth-guard.guard';
+import { AuthService } from './services/auth.service';
+import { MemoryNonceService, NonceService } from './services/nonce.service';
+import { SignatureService } from './services/signature.service';
+import { EthStrategy } from './strategy/eth.strategy';
+import {
+  AuthModuleOptions,
+  AuthModuleAsyncOptions,
+} from './interfaces/auth-options.interface';
+import { AuthController } from './controllers/auth.controller';
 
 @Module({
   imports: [JwtModule],
+  controllers: [AuthController],
   providers: [
     AuthService,
     MemoryNonceService,
@@ -52,7 +57,7 @@ export class AuthModule {
   }
 
   private static createAsyncProviders(
-    options: AuthModuleAsyncOptions,
+    options: AuthModuleAsyncOptions
   ): Provider[] {
     if (options.useFactory) {
       return [
