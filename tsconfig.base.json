@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@molbind/auth": ["libs/molbindapi/auth/src/index.ts"]
+      "@molbindapi/auth": ["libs/molbindapi/auth/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
