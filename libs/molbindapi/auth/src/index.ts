@@ -7,6 +7,3 @@ export * from './lib/guards/eth-guard.guard';
 export * from './lib/decorators/eth-auth.decorator';
 export * from './lib/strategy/eth.strategy';
 export * from './lib/interfaces/eth-user.interface';
-
-
-
