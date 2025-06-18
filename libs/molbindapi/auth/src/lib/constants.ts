@@ -1,0 +1,2 @@
+export const AUTH_OPTIONS = 'AUTH_OPTIONS';
+export const ETH_USER_REPOSITORY = 'ETH_USER_REPOSITORY';
