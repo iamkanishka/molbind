@@ -1,1 +1,12 @@
 export * from './lib/auth.module';
+export * from './lib/interfaces/auth-options.interface';
+export * from './lib/services/auth.service';
+export * from './lib/services/nonce.service';
+export * from './lib/services/signature.service';
+export * from './lib/guards/eth-guard.guard';
+export * from './lib/decorators/eth-auth.decorator';
+export * from './lib/strategy/eth.strategy';
+export * from './lib/interfaces/eth-user.interface';
+
+
+
