@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@molbind/auth-ui": ["libs/molbind/auth-ui/src/index.ts"],
+      "@molbind/chat-ui": ["libs/molbind/chat-ui/src/index.ts"],
       "@molbind/dashboard-ui": ["libs/molbind/dashboard-ui/src/index.ts"],
       "@molbind/explore-ui": ["libs/molbind/explore-ui/src/index.ts"],
       "@molbind/profile-ui": ["libs/molbind/profile-ui/src/index.ts"],
