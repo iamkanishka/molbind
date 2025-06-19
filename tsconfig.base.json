@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@molbind/auth-ui": ["/libs/molbind/auth-ui/src/index.ts"],
       "@molbind/profile": ["/libs/molbindapi/profile/src/index.ts"],
       "@molbindapi/auth": ["libs/molbindapi/auth/src/index.ts"]
     }
