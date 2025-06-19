@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@molbind/auth-ui": ["libs/molbind/auth-ui/src/index.ts"],
-      "@molbind/profile-ui": ["/libs/molbind/profile-ui/src/index.ts"],
+      "@molbind/profile-ui": ["libs/molbind/profile-ui/src/index.ts"],
       "@molbindapi/auth": ["libs/molbindapi/auth/src/index.ts"],
       "@molbindapi/profile": ["libs/molbindapi/profile/src/index.ts"]
     }
