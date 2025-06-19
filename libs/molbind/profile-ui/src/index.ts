@@ -1,1 +1,1 @@
-export * from './../../../../Kanishka's Workspace/Angular/Real-world Application/molbind/libs/molbind/profile-ui/src/lib/profile-ui/profile-ui';
+export * from './lib/profile-ui/profile-ui';
